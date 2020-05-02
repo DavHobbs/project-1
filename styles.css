@@ -221,5 +221,48 @@ a.social:hover {
     color: white;
   }
 
-}
 
+  input[type=text] {
+    width: 50%;
+    padding: 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+
+  input[type=text]:focus {
+    border: 4px solid #ff9904;
+  }
+
+  input[type=submit] {
+    width: 50%;
+    padding: 20px;
+    margin: 12px;
+  }
+
+  nput[type=button], input[type=submit], input[type=reset] {
+    background-color: #ff9904;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 2px;
+    cursor: pointer;
+  }
+  
+
+  form label {
+    color: black;
+  }
+
+  #contact_style {
+    color: black;
+  }
+
+  #box {
+    margin: 0 auto;
+     width: 700px; 
+     background-color: #f7f5f0;
+     padding: 40px;
+  }
+}
