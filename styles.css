@@ -32,7 +32,6 @@ a:hover {
   text-align: center;
 }
 .nav {
-  display: flex;
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
@@ -41,13 +40,16 @@ a:hover {
 }
 
 .nav .name {
-    display: block;
+    display: inline-block;
     margin-right: auto;
     color: white;
+    float: left;
     
 }
 .nav li {
+  display: inline;
   padding: 5px 10px 10px 10px;
+  float:right;
 }
 .nav a {
   transition: all .5s;
@@ -187,10 +189,9 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: block;      /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
